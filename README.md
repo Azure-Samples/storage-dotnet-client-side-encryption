@@ -14,11 +14,11 @@ Note: If you don't have a Microsoft Azure subscription you can get a FREE trial 
 
 Instructions:
 
-	1.  Create a Storage Account through the Azure Portal and set up your Key Vault following the instructions on this post: https://azure.microsoft.com/en-us/documentation/articles/key-vault-get-started/
+1.  Create a Storage Account through the Azure Portal and set up your Key Vault following the instructions on this post: https://azure.microsoft.com/en-us/documentation/articles/key-vault-get-started/
 
-	2. For the .net sample, open the App.config file and set "StorageConnectionString", "KVClientId", "KVClientKey", "VaultUri" and optionally "KeyID"
+2. For the .net sample, open the App.config file and set "StorageConnectionString", "KVClientId", "KVClientKey", "VaultUri" and optionally "KeyID"
 
-	3. Set breakpoints and run the project
+3. Set breakpoints and run the project
 
 
 ## More information
