@@ -1,6 +1,6 @@
 ---
 services: storage, keyvault
-platforms: java, c#
+platforms: dotnet
 author: woodp
 ---
 
@@ -19,18 +19,6 @@ Instructions:
 	2. For the .net sample, open the App.config file and set "StorageConnectionString", "KVClientId", "KVClientKey", "VaultUri" and optionally "KeyID"
 
 	3. Set breakpoints and run the project
-
-	4. For the java sample, download "Java Cryptography Extension (JCE) Unlimited Strength Jurisdiction Policy Files" for your JDK/JRE
-
-		- [Java Cryptography Extension (JCE) Unlimited Strength Jurisdiction Policy Files for JDK/JRE 8](http://www.oracle.com/technetwork/java/javase/downloads/jce8-download-2133166.html)
-
-		- [Java Cryptography Extension (JCE) Unlimited Strength Jurisdiction Policy Files for JDK/JRE 7](http://www.oracle.com/technetwork/java/javase/downloads/jce-7-download-432124.html)
-
-	5. Extract the jar files and place them in ${java.home}/jre/lib/security/
-
-	5. Open the Utility.java file and set "storageConnectionString", "vaultURL", "AuthClientId", "AuthClientSecret" and optionally "keyVaultKeyID"
-
-	6. Set breakpoints and run the project
 
 
 ## More information
