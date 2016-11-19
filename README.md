@@ -12,17 +12,17 @@ Note: If you don't have a Microsoft Azure subscription you can get a FREE trial 
 
 ## Running this sample
 
-Instructions:
+- Create a Storage Account through the Azure Portal
 
-1.  Create a Storage Account through the Azure Portal
+- Set up your Key Vault following the instructions on this post: https://azure.microsoft.com/en-us/documentation/articles/key-vault-get-started/ . Make sure to permit 'get' and 'unwrapkey' options to the key you create.  
 
-2. Set up your Key Vault following the instructions on this post: https://azure.microsoft.com/en-us/documentation/articles/key-vault-get-started/ . Make sure to permit get and unwrapkey options to the key you create.  
-
+```
   Set-AzureRmKeyVaultAccessPolicy -VaultName 'ContosoKeyVault' -ServicePrincipalName 853csbtd-485b-45f3-98f7-ec2301b7b44d -PermissionsToKeys get,unwrapkey
+```
 
-3. For the .net sample, open the App.config file and set "StorageConnectionString", "KVClientId", "KVClientKey", "VaultUri" and optionally "KeyID"
+- For the .net sample, open the App.config file and set "StorageConnectionString", "KVClientId", "KVClientKey", "VaultUri" and optionally "KeyID"
 
-4. Set breakpoints and run the project
+- Set breakpoints and run the project
 
 
 ## More information
