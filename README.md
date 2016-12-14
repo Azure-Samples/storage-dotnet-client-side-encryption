@@ -20,7 +20,7 @@ Note: If you don't have a Microsoft Azure subscription you can get a FREE trial 
   Set-AzureRmKeyVaultAccessPolicy -VaultName 'ContosoKeyVault' -ServicePrincipalName 853csbtd-485b-45f3-98f7-ec2301b7b44d -PermissionsToKeys get,unwrapkey
 ```
 
-- For the .net sample, open the App.config file and set "StorageConnectionString", "KVClientId", "KVClientKey", "VaultUri" and optionally "KeyID"
+- Open the App.config file and set "StorageConnectionString", "KVClientId", "KVClientKey", "VaultUri" and optionally "KeyID"
 
 - Set breakpoints and run the project
 
